@@ -5,7 +5,7 @@ class Solution:
         #mid = len(nums) // 2
         minim = float("inf")
         
-        while l < r:
+        while l <= r:
             mid = (l+r)//2
             minim = min(minim, nums[mid])
             if nums[mid] > nums[r]: 
